@@ -1,4 +1,201 @@
-div{
-    border: red 1px solid;
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+.header{
+    display: flex;
+align-items: center;
+justify-content: space-around;
+background-color: #1f2937;
+padding: auto 200px;
+height: 40px;
+
+}
+
+.logo{
+    margin-left: 12px;
+    color:#f9faf8;
+    font-size: 24px;
+}
+
+ul{
+display: flex;
+list-style-type: none;
+gap: 16px;
+padding: 0;
+font-size: 18px;
+
+}
+
+a{
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+
+.footer{
+    background-color: #1f2937;
+    margin: auto 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e5e7eb;
+    font-size: 18px;
+    padding: 42px ;
+    height: 70px;
+}
+
+.container{
+display: flex;
+flex-direction: column;
+background-color: white;
+justify-content: space-evenly;
+padding:0;
+}
+
+
+.cards{
+    display: flex;
+    padding:50px 200px auto 200px;
+height: 300px;
+justify-content: space-around;
+align-items: center;
+}
+
+.middle{
+    display: flex;
+    background-color:#e5e7eb ;
+    padding: auto 200px;
+    flex-direction: column;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote{
+font-size: 36px;
+font-style: italic;
+color: #1f2937;
+align-self: flex-start ;
+
+}
+
+.author{
+font-weight: bold;
+align-self: flex-end;
+font-size: 20px;
+}
+
+.modal{
+    display: flex;
+    background-color: #3882f6;
+    padding: 30px 500px;
+    width: 600px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    }
+
+button{
+    background-color: #3882f6;
+    color: white;
+    border-radius: 4px;
+    width: 80px;
+    height: 25px;
+}
+
+.signup2{
+    border: white 1px solid;
+}
+
+.test{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: auto 200px;
+    height: 400px;
+}
+
+.end{
+    display: flex;
+    flex-direction: column;
+    color: #f9faf8;
     
+    
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: auto 200px ;
+    font-size:36px ;
+    font-weight: bolder;
+    height: 100px;
+}
+
+.bike{
+    width: 400px ;
+    height: 200px;
+    
+}
+
+.bridge{
+    width: 200px;
+    height: 200px;
+}
+
+.leftintro{
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    
+}
+
+.text{
+font-size: 48px;
+font-weight: bolder;
+color: #f9faf8;
+}
+
+.subtext{
+    font-size:18px ;
+    color: #e5e7eb;
+}
+
+.intro{
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-around;
+    padding: auto 200px;
+    gap: 40px;
+    align-items: center;
+    height: 400px;
+}
+
+.endtitle{
+font-weight: bold;
+
+}
+
+.endtext{
+    
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.imgsub{
+    max-width: 200px;
+    text-align: center;
 }
